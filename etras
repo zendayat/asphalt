@@ -1,0 +1,237 @@
+<div class="footer1">
+            <h4>THE ASPHALTCARS LUXURY SUITE</h4>
+            <div id="box">
+                <div id="photos">
+                    <div id="pics">
+                        <!img id="img1" src="images/luxuryCar2.jpg">
+                        <img id="img2" src="images/luxuryCar3.jpg">
+                        <img id="img3" src="images/luxuryCar4.jpg">
+                        <img id="img4" src="images/luxuryCar5.jpg">
+                        <img id="img5" src="images/luxuryCar6.jpg"-->
+                    </div>
+                    <!--div id="navbuttons">
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>5</button-->
+                    </div>
+                </div>
+                <div id="specs">
+                    <h3>"EL-MAMAYANO"</h3>
+                    <div id="make"><b>MAKE: </b><span>Rolls Royce</span></div>
+                    <div id="seat"><b>SEATS: </b><span>six(6) with boot</span></div>
+                    <div id="DPrice"><b>DAY PRICE: </b><span>$5,000</span></div>
+                    <div id="perk"><b>PERK: </b><span>Comes with driver</span></div>
+                    <div id="available"><b>AVAILABILITY: </b><span>rented out</span></div>
+                </div>
+            </div><div class="footer1">
+                <h4>THE ASPHALTCARS LUXURY SUITE</h4>
+                <div id="box">
+                    <div id="photos">
+                        <div id="pics">
+                            <!img id="img1" src="images/luxuryCar2.jpg">
+                            <img id="img2" src="images/luxuryCar3.jpg">
+                            <img id="img3" src="images/luxuryCar4.jpg">
+                            <img id="img4" src="images/luxuryCar5.jpg">
+                            <img id="img5" src="images/luxuryCar6.jpg"-->
+                        </div>
+                        <!--div id="navbuttons">
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                            <button>5</button-->
+                        </div>
+                    </div>
+                    <div id="specs">
+                        <h3>"EL-MAMAYANO"</h3>
+                        <div id="make"><b>MAKE: </b><span>Rolls Royce</span></div>
+                        <div id="seat"><b>SEATS: </b><span>six(6) with boot</span></div>
+                        <div id="DPrice"><b>DAY PRICE: </b><span>$5,000</span></div>
+                        <div id="perk"><b>PERK: </b><span>Comes with driver</span></div>
+                        <div id="available"><b>AVAILABILITY: </b><span>rented out</span></div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class="luxury">
+                    <img src="images/luxuryCar1.jpg">
+                    <div id="ref">s</div>
+                </div>
+                <div class="sports">
+                    <img src="images/luxuryCar1.jpg">
+                    <div id="ref">s</div>
+                </div>
+                <div class="travels">
+                    <img src="images/luxuryCar1.jpg">
+                    <div id="ref">s</div>
+                </div>
+                <div class="racing">
+                    <img src="images/luxuryCar1.jpg">
+                    <div id="ref">s</div>
+                </div>
+                <div class="beasts">
+                    <img src="images/luxuryCar1.jpg">
+                    <div id="ref">s</div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                #box #photos{
+                    background-color: rgba(255, 0, 170, 0.212);
+                    width: 500px;
+                    height: 550px;
+                    display: inline-block;
+                    overflow: scroll;
+                    scroll-behavior: smooth;
+                    scroll-snap-type: mandatory;
+                    overflow-y: hidden;
+                
+                }
+                #box #photos #pics{
+                    display: inline-flex;
+                }
+                #box #photos img{
+                    width: 500px;
+                    height: 550px;
+                    
+                }
+                #box #specs{
+                    width: 300px;
+                    height: 500px;
+                    /*background-color: rgba(58, 226, 43, 0.486);*/
+                    font-family: 600;
+                    margin-top: 70px;
+                    
+                    
+                }
+                #box #specs div{
+                    margin-top: 20px;
+                    color: rgb(7, 172, 223);
+                }
+                #box #specs span{
+                    font-family: 'Aref Ruqaa Ink', serif;
+                    font-weight: 800;
+                    font-size: 20px;
+                    color: wheat;
+                }
+                #photos #navbuttons button{
+                    background-color: red;
+                    width: 20px;
+                    height: 8px;
+                    border-radius: 4px;
+                    z-index: 3;
+                    margin-top: 40px;
+                }
+                #box #specs h3{
+                    color: white;
+                    font-family: 'Kanit', sans-serif;
+                    font-size: 16px;
+                }
+                
+                
+                
+
+
+
+
+                if (document.getElementById("user").value != null && document.getElementById("pass").value !== null) {
+                    document.getElementById("acceptance").innerHTML = "LOGIN SUCCESSFUL.WELCOME AMONG THE ELITES";
+                }
+                else{
+                    document.getElementById("acceptance").innerHTML = "LOGIN ERROR";
+                }
+
+
+
+
+
+
+
+                function myAccept(){
+                    if (document.getElementById("user").value != null){
+                        if (document.getElementById("pass").value != null){
+                            document.getElementById("acceptance").innerHTML = "Login Successful.Welcome Among the elites.";
+                        }
+                    }      
+                    else{
+                        document.getElementById("acceptance").innerHTML = "Failed. Please try again.";
+                    }
+                }
+
+
+
+
+
+
+
+
+
+                <div id="gallery">
+                    <div id="img1">
+                        <img src="images/raceCar3.jpg">
+                        <div id="make">
+                            <li>
+                                <ul style="color: black;"><b>MAKE:</b>Ferrari</ul>
+                                <ul style="color: black;"><b>NAME:</b>"Cobra"</ul>
+                            </li>
+                        </div>
+                    </div>
+                    <div id="img1">
+                        <img src="images/sportsCar3.jpg">
+                        <div id="make">
+                            <li>
+                                <ul><b>MAKE:</b>Audi</ul>
+                                <ul><b>NAME:</b>"Scarlet"</ul>
+                            </li>
+                        </div>
+                    </div><div id="img1">
+                        <img src="images/sportsCar13.jpg">
+                        <div id="make">
+                            <li>
+                                <ul style="color: black;"><b>MAKE:</b>Cruiser</ul>
+                                <ul style="color: black;"><b>NAME:</b>"Cruiser"</ul>
+                            </li>
+                        </div>
+                    </div>
+                    <div id="img1">
+                        <img src="images/sportsCar4.jpg">
+                        <div id="make">
+                            <li>
+                                <ul><b>MAKE:</b>Mercedes</ul>
+                                <ul><b>NAME:</b>"Spark"</ul>
+                            </li>
+                        </div>
+                    </div><div id="img1">
+                        <img src="images/sportsCar11.jpg">
+                        <div id="make">
+                            <li>
+                                <ul style="color: black;"><b>MAKE:</b>Chevlorret</ul>
+                                <ul style="color: black;"><b>NAME:</b>"Black"</ul>
+                            </li>
+                        </div>
+                    </div><div id="img1">
+                        <img src="images/sportsCar12.jpg">
+                        <div id="make">
+                            <li>
+                                <ul style="color: black;"><b>MAKE:</b>Lamborghini</ul>
+                                <ul style="color: black;"><b>NAME:</b>"Tiger"</ul>
+                            </li>
+                        </div>
+                    </div>
+                </div>

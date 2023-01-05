@@ -1,0 +1,111 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="script1.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="nav">
+                <div class="logo">
+                    <a href="home.html"><img src="images/logo.png"></a>
+                </div>
+                <div class="navbar">
+                    <li>
+                        <ul><a href="home.html" id="a1">Home</a></ul>
+                        <ul><a href="home.html#about" id="a2">About us</a></ul><ul>
+                        <ul><a href="Cars.html" id="a3">Asphalt Cars</a></ul>
+                    </li>
+                </div>
+                <div class="menu">
+                    <img src="images/icons8-circled-menu-50.png" onclick="ToggleMenu()">
+                    <script>
+                        var menuList = document.getElementById("menuList");
+                        function ToggleMenu() {
+                            if(menuList.style.display = "none"){
+                                menuList.style.display = "block";
+                                menuList.style.height = "75px"
+                            }
+                            else{
+                                menuList.style.display = "none";
+                                menuList.style.height = "0px"
+                            }
+                        
+                        }
+                    </script>
+                </div>
+            </div>
+            <div class="logins">
+                <div class="info">
+                    <h4>LOGIN WITH US TODAY</h4>
+                    <h3>Join the Asphalt team.</h3>
+                    <div id="line"></div>
+                </div>
+                <div class="form">
+                    <input type="email" placeholder="Enter your Email" class="email" id="user">
+                    <input type="password" placeholder="Password" class="pass" id="pass">
+                    <button type="button" class="submit" onclick="myAccept()">Log-in</button>
+                    <div id="acceptance"></div>
+                    <!--script>
+                        function myFunc();
+                            document.getElementById("acceptance").innerHTML = "Please"
+                    </script-->
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div id="outlets">
+                <h3>Our outlets</h3>
+                <div id="list1">
+                    <li>
+                        <ul>Montero Building, Mombasa</ul>
+                        <ul>Azzania Building, Malindi</ul>
+                        <ul>TCB Business Hall, Nairobi</ul>
+                        <ul>Omera Limited, Kisumu</ul>
+                    </li>
+                </div>
+            </div>
+            <div id="contacts">
+                <h3>Contact us</h3>
+                <div id="list1">
+                    <li>
+                        <ul><b>Tell:</b>+2547789300</ul>
+                        <ul><b>Tell:</b>+2547733460</ul>
+                        <ul><b>Email:</b><a href="mailto:craizeeido@gmail.com">asphaltUser@gmail.com</a></ul>
+                        <ul><b>Email:</b><a href="mailto:craizeeido@gmail.com">asphaltCare@gmail.com</a></ul>
+                    </li>
+                </div>
+            </div>
+            <div id="socials">
+                <h3>Follow us</h3>
+                <div id="list1">
+                    <li>
+                        <ul><a href="#"><i class="fa fa-instagram"></i></a></ul>
+                        <ul><a href="#"><i class="fa fa-facebook"></i></a></ul>
+                        <ul><a href="#"><i class="fa fa-twitter"></i></a></ul>
+                        <ul><a href="#"><i class="fa fa-telegram"></i></a></ul>
+                    </li>
+                </div>
+            </div>
+            <div id="privacy">
+                <h3>Privacy</h3>
+                <div id="list1">
+                    <li>
+                        <ul>&copy;Copyright 2022</ul>
+                        <ul>AsphaltCars&trade; is a registered trademark, 2011.</ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

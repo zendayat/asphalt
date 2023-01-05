@@ -1,0 +1,944 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.534), rgba(10, 10, 10, 0.658)), url(images/sportsCar1.jpg);
+    font-family: sans-serif;
+}
+.logo img{
+    width: 120px;
+    height: 90px;
+    border-radius: 20px;
+}
+.logo img:hover{
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.logo{
+    width: 120px;
+    height: 90px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.nav{
+    display: inline-flex;
+    width: 100%;
+}
+.navbar li{
+    display: inline-flex;
+    gap: 90px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(19, 53, 167);
+    border-style: double;
+    border-color: rgb(27, 25, 25);
+    border-width: 2px;
+    padding: 7px;
+    padding-right: 15px;
+    border-right: hidden;
+    border-bottom: hidden;
+    width: fit-content;
+}
+.navbar{
+    margin-left: 320px;
+    margin-top: 50px;
+}
+.navbar li a:hover{
+    box-shadow: 5px 2px 20px #09c7a7;
+    border-color: rgba(26, 184, 157, 0.815);
+    transition-duration: 1.3s;
+}
+.navbar li #a1::before{
+    content: "";
+    background-color: rgb(0, 255, 221);
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    transition: 0.4s;
+    border-radius: 2px;
+    border-radius: 10rem;
+}
+.navbar li #a1:hover::before{
+    width: 80px;
+    transition-duration: 0.5s;
+}
+.navbar li #a1::after{
+    content: "";
+    background-color: rgb(255, 0, 170);
+    width: 2px;
+    height: 0px;
+    margin-top: -7px;
+    margin-left: 15px;
+    position: absolute;
+    top: 50px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a1:hover::after{
+    height: 45px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.navbar li #a2::before{
+    content: "";
+    background-color: rgb(0, 255, 221);
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a2:hover::before{
+    width: 110px;
+    transition-duration: 0.5s;
+}
+.navbar li #a2::after{
+    content: "";
+    background-color: rgb(255, 0, 170);
+    width: 2px;
+    height: 0px;
+    margin-top: -7px;
+    margin-left: 15px;
+    position: absolute;
+    top: 50px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a2:hover::after{
+    height: 45px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.navbar li #a3::before{
+    content: "";
+    background-color: rgb(0, 255, 221);
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a3:hover::before{
+    width: 135px;
+    transition-duration: 0.5s;
+}
+.navbar li #a3::after{
+    content: "";
+    background-color: rgb(255, 0, 170);
+    width: 2px;
+    height: 0px;
+    margin-top: -7px;
+    margin-left: 15px;
+    position: absolute;
+    top: 50px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a3:hover::after{
+    height: 45px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.menu{
+    width: 20px;
+    height: 20px;
+    /*background-color: red;*/
+    position: absolute;
+    right: 10px;
+    top: 300px;
+    display: none;
+}
+.menu img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-top: 0px;
+
+}
+.login{
+    display: block;
+    margin-left: 260px;
+}
+.login span{
+    color: white;
+    top: 25px;
+    left: -55px;
+    position: relative;
+    font-weight: 600;
+}
+.login img{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+.login img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+.head h1{
+    margin-top: 5px;
+    height: 80px;
+    font-size: 70px;
+    font-weight: 700;
+    margin-left: 140px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(235, 198, 198);
+}
+.head h1:hover{
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.head h1::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(236, 21, 21);
+    height: 4px;
+    width: 0px;
+    margin-left: 200px;
+    margin-top: 95px;
+    border-radius: 5rem;
+}
+.head h1:hover::before{
+    width: 600px;
+    transition-duration: 0.6s;
+}
+.head h4{
+    margin-top: 25px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 180px;
+    font-family: 'Roboto Slab', serif;
+    color: rgba(235, 198, 198, 0.753);
+}
+.footer{
+    background-color: rgba(189, 185, 185, 0.808);
+    height: 1200px;
+    width: 100%;
+}
+.footer h1{
+    height: 80px;
+    font-size: 70px;
+    font-weight: 700;
+    margin-left: 465px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 10px;
+}
+.footer h3{
+    height: 80px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 560px;
+    margin-top: 40px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(22, 16, 54);
+}
+#us{
+    width: 70%;
+    height: 200px;
+    /*background-color: rgb(0, 0, 0);*/
+    margin-left: 200px;
+    color: rgb(20, 17, 17);
+    font-size: 20px;
+    font-family: 'Noto Serif NP Hmong', serif;
+}
+.footer #h32{
+    height: 80px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 430px;
+    margin-top: 40px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(22, 16, 54);
+}
+.reviews{
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+    gap: 35px;
+    margin-left: 170px;
+}
+#review1,#review2,#review3{
+    height: 200px;
+    width: 300px;
+    background-color: rgba(28, 238, 220, 0.801);
+    border-radius: 36px;
+}
+#review1 img,#review2 img,#review3 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#review1 span,#review2 span,#review3 span{
+    position: relative;
+    top: -40px;
+    left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+#review1 #rating,#review2 #rating,#review3 #rating{
+    position: relative;
+    top: -35px;
+    left: 80px;
+}
+#review1 #comment,#review2 #comment,#review3 #comment{
+    position: relative;
+    height: 120px;
+    width: 260px;
+    top: -20px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer #h32{
+    height: 80px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 430px;
+    margin-top: 40px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(22, 16, 54);
+}
+.partners{
+    height: 300px;
+    width: 100%;
+    display: inline-flex;
+    margin-left: 240px;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+#partner1,#partner2,#partner3,#partner4,#partner5,#partner6{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#partner1 img,#partner2 img,#partner3 img,#partner4 img,#partner5 img,#partner6 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.info{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(39, 37, 37);
+    display: inline-flex;
+    gap: 60px;
+    
+}
+#outlets{
+    margin-left: 150px;
+}
+#outlets,#contacts,#socials,#privacy{
+    width: 220px;
+    height: 200px;
+    /*background-color: rgba(216, 112, 147, 0.507);*/
+}
+#outlets h3,#contacts h3,#socials h3,#privacy h3{
+    height: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(248, 192, 192);
+}
+#socials li{
+    position: relative;
+    flex-wrap: wrap;
+    display: inline-flex;
+    gap: 20px;
+}
+#outlets li,#contacts li,#socials  li,#privacy li{
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -55px;
+    color: rgba(243, 243, 243, 0.856);
+}
+#outlets li a,#contacts li a,#socials  li a,#privacy li a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+}
+#socials li i{
+    font-size: 24px;
+}
+@media only screen and (max-width:370px){
+    .logo img{
+        width: 90px;
+        height: 80px;
+    }
+    .head h1{
+        margin-top: 30px;
+        height: fit-content;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 5px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(235, 198, 198);
+    }
+    .head h4{
+        margin-top: 40px;
+        height: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 60px;
+        font-family: 'Roboto Slab', serif;
+        color: rgba(235, 198, 198, 0.753);
+    }
+    .menu{
+        width: 20px;
+        height: 20px;
+        /*background-color: red;*/
+        position: absolute;
+        right: 10px;
+        top: 95px;
+        display: block;
+    }
+    .menu img{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        margin-top: 0px;
+    }
+    .navbar li{
+        display: inline-block;
+        gap: 40px;
+        padding-top: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        border-style: none;
+        /*border-color: rgb(27, 25, 25);*/
+        /*border-width: 2px;*/
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .navbar{
+        left: -250px;
+        top: 10px;
+        position: absolute;
+        z-index: 3;
+        background-color: rgba(255, 235, 205, 0.863);
+        width: 200px;
+        height: 75px;
+        display: none;
+        transition: 0.8s;
+    }
+    .navbar li #a1::before{
+        display: none;
+    }
+    .navbar li #a1::after{
+        display: none;
+    }
+    .navbar li #a2::before{
+        display: none;
+    }
+    .navbar li #a2::after{
+        display: none;
+    }
+    .navbar li #a3::before{
+        display: none;
+    }
+    .navbar li #a3::after{
+        display: none;
+    }
+    .login span{
+        display: none;
+    }
+    .login img{
+        position: absolute;
+        left: 300px;
+        width: 40px;
+        height: 40px;
+        top: 15px;
+    }
+    .head h1::before{
+        display: none;
+    }
+    .footer h1{
+        height: 40px;
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: 70px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(0, 0, 0);
+        position: relative;
+        top: 10px;
+    }
+    .footer h3{
+        height: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 100px;
+        margin-top: 25px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(22, 16, 54);
+    }
+    #us{
+        width: 300px;
+        height: 350px;
+        /*background-color: rgb(0, 0, 0);*/
+        margin-left: 30px;
+        color: rgb(20, 17, 17);
+        font-size: 17px;
+        font-family: 'Noto Serif NP Hmong', serif;
+        margin-top: 30px;
+    }
+    .footer #h32{
+        height: 40px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(22, 16, 54);
+    }
+    .reviews{
+        width: 100%;
+        height: 300px;
+        display: inline-block;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    #review1,#review2,#review3{
+        margin-top: 15px;
+    }
+    .footer{
+        height: 1650px;
+    }
+    .partners{
+        height: 300px;
+        width: 100%;
+        display: inline-flexbox;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        font-family: 'Aref Ruqaa Ink', serif;
+    }
+    #outlets h3,#contacts h3,#socials h3,#privacy h3{
+        height: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+    }
+    #outlets li,#contacts li,#socials  li,#privacy li{
+        font-family: 'Aref Ruqaa Ink', serif;
+        font-weight: 800;
+        font-size: 15px;
+        margin-top: 0px;
+        color: rgba(243, 243, 243, 0.856);
+    }
+    .info{
+        height: 700px;
+    }
+    #outlets{
+        margin-left: 20px;
+    }
+    #privacy,#socials{
+        position: relative;
+        top: 400px;
+    }
+    #socials{
+        left: -390px;
+    }
+    #socials #list1{
+        position: relative;
+        top: 35px;
+    }
+    #privacy{
+        position: relative;
+        left: -330px;
+    }
+}
+@media screen and (min-width: 371px) and (max-width: 429px){
+    .logo img{
+        width: 90px;
+        height: 80px;
+    }
+    .head h1{
+        margin-top: 30px;
+        height: fit-content;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 5px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(235, 198, 198);
+    }
+    .head h4{
+        margin-top: 40px;
+        height: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 60px;
+        font-family: 'Roboto Slab', serif;
+        color: rgba(235, 198, 198, 0.753);
+    }
+    .menu{
+        width: 20px;
+        height: 20px;
+        /*background-color: red;*/
+        position: absolute;
+        right: 10px;
+        top: 95px;
+        display: block;
+    }
+    .menu img{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        margin-top: 0px;
+    }
+    .navbar li{
+        display: inline-block;
+        gap: 40px;
+        padding-top: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        border-style: none;
+        /*border-color: rgb(27, 25, 25);*/
+        /*border-width: 2px;*/
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .navbar{
+        left: -250px;
+        top: 10px;
+        position: absolute;
+        z-index: 3;
+        background-color: rgba(255, 235, 205, 0.863);
+        width: 200px;
+        height: 75px;
+        display: none;
+        transition: 0.8s;
+    }
+    .navbar li #a1::before{
+        display: none;
+    }
+    .navbar li #a1::after{
+        display: none;
+    }
+    .navbar li #a2::before{
+        display: none;
+    }
+    .navbar li #a2::after{
+        display: none;
+    }
+    .navbar li #a3::before{
+        display: none;
+    }
+    .navbar li #a3::after{
+        display: none;
+    }
+    .login span{
+        display: none;
+    }
+    .login img{
+        position: absolute;
+        left: 345px;
+        width: 40px;
+        height: 40px;
+        top: 15px;
+    }
+    .head h1::before{
+        display: none;
+    }
+    .footer h1{
+        height: 40px;
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: 90px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(0, 0, 0);
+        position: relative;
+        top: 10px;
+    }
+    .footer h3{
+        height: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 120px;
+        margin-top: 25px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(22, 16, 54);
+    }
+    #us{
+        width: 300px;
+        height: 350px;
+        /*background-color: rgb(0, 0, 0);*/
+        margin-left: 50px;
+        color: rgb(20, 17, 17);
+        font-size: 17px;
+        font-family: 'Noto Serif NP Hmong', serif;
+        margin-top: 30px;
+    }
+    .footer #h32{
+        height: 40px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 50px;
+        margin-top: 30px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(22, 16, 54);
+    }
+    .reviews{
+        width: 100%;
+        height: 300px;
+        display: inline-block;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    #review1,#review2,#review3{
+        margin-top: 15px;
+    }
+    .footer{
+        height: 1650px;
+    }
+    .partners{
+        height: 300px;
+        width: 100%;
+        display: inline-flexbox;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        font-family: 'Aref Ruqaa Ink', serif;
+    }
+    #outlets h3,#contacts h3,#socials h3,#privacy h3{
+        height: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+    }
+    #outlets li,#contacts li,#socials  li,#privacy li{
+        font-family: 'Aref Ruqaa Ink', serif;
+        font-weight: 800;
+        font-size: 15px;
+        margin-top: 0px;
+        color: rgba(243, 243, 243, 0.856);
+    }
+    .info{
+        height: 700px;
+    }
+    #outlets{
+        margin-left: 20px;
+    }
+    #privacy,#socials{
+        position: relative;
+        top: 400px;
+    }
+    #socials{
+        left: -390px;
+    }
+    #socials #list1{
+        position: relative;
+        top: 35px;
+    }
+    #privacy{
+        position: relative;
+        left: -320px;
+    }
+    
+}
+@media screen and (min-width: 760px) and (max-width: 887px){
+    .logo img{
+        width: 130px;
+        height: 110px;
+    }
+    .head h1{
+        margin-top: 30px;
+        height: fit-content;
+        font-size: 35px;
+        font-weight: 600;
+        margin-left: 140px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(235, 198, 198);
+    }
+    .head h4{
+        margin-top: 40px;
+        height: 30px;
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: 80px;
+        font-family: 'Roboto Slab', serif;
+        color: rgba(235, 198, 198, 0.753);
+    }
+    .menu{
+        display: none;
+    }
+    .navbar li{
+        display: inline-flex;
+        gap: 60px;
+        padding-top: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        border-style: none;
+        border-color: rgb(27, 25, 25);
+        border-width: 2px;
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .navbar{
+        margin-left: 90px;
+        top: 10px;
+        position: relative;
+        z-index: 3;
+        /*background-color: rgba(77, 76, 74, 0.863);*/
+        width: 300px;
+        height: 75px;
+        display: block;
+        transition: 0.8s;
+    }
+    .navbar li #a1::before{
+        display: none;
+    }
+    .navbar li #a1::after{
+        display: none;
+    }
+    .navbar li #a2::before{
+        display: none;
+    }
+    .navbar li #a2::after{
+        display: none;
+    }
+    .navbar li #a3::before{
+        display: none;
+    }
+    .navbar li #a3::after{
+        display: none;
+    }
+    .login span{
+        display: none;
+    }
+    .login img{
+        width: 40px;
+        height: 40px;
+        top: 15px;
+        position: absolute;
+        right: 15px;
+    }
+    .head h1::before{
+        display: none;
+    }
+    .footer h1{
+        height: 60px;
+        font-size: 50px;
+        font-weight: 700;
+        margin-left: 250px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(0, 0, 0);
+        position: relative;
+        top: 10px;
+    }
+    .footer h3{
+        height: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        margin-left: 260px;
+        margin-top: 25px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(22, 16, 54);
+    }
+    #us{
+        width: 480px;
+        height: 350px;
+        /*background-color: rgb(0, 0, 0);*/
+        margin-left: 150px;
+        color: rgb(20, 17, 17);
+        font-size: 22px;
+        font-family: 'Noto Serif NP Hmong', serif;
+        margin-top: 30px;
+    }
+    .footer #h32{
+        height: 40px;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 170px;
+        margin-top: 40px;
+        font-family: 'Roboto Slab', serif;
+        color: rgb(22, 16, 54);
+    }
+    .reviews{
+        width: 100%;
+        height: 300px;
+        display: inline-block;
+        margin-left: 230px;
+        margin-top: 20px;
+    }
+    #review1,#review2,#review3{
+        margin-top: 15px;
+    }
+    .footer{
+        height: 1650px;
+    }
+    .partners{
+        height: 300px;
+        width: 100%;
+        display: inline-flexbox;
+        flex-wrap: wrap;
+        margin-left: 30px;
+        font-family: 'Aref Ruqaa Ink', serif;
+        margin-top: 30px;
+    }
+    #outlets h3,#contacts h3,#socials h3,#privacy h3{
+        height: 30px;
+        font-size: 25px;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+    }
+    #outlets li,#contacts li,#socials  li,#privacy li{
+        font-family: 'Aref Ruqaa Ink', serif;
+        font-weight: 800;
+        font-size: 15px;
+        margin-top: 20px;
+        color: rgba(243, 243, 243, 0.856);
+    }
+    .info{
+        height: 700px;
+    }
+    #contacts{
+        margin-left: 280px;
+    }
+    #outlets{
+        margin-left: 30px;
+    }
+    #privacy,#socials{
+        position: relative;
+        top: 400px;
+    }
+    #socials{
+        left: -680px;
+    }
+    #socials #list1{
+        position: relative;
+        top: 35px;
+    }
+    #privacy{
+        position: relative;
+        left: -300px;
+    }
+}

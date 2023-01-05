@@ -1,0 +1,668 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.534), rgba(10, 10, 10, 0.658)), url(images/Login.png);
+    font-family: sans-serif;
+}
+.logo img{
+    width: 120px;
+    height: 90px;
+    border-radius: 20px;
+}
+.logo img:hover{
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.logo{
+    width: 120px;
+    height: 90px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.nav{
+    display: inline-flex;
+}
+.navbar li{
+    display: inline-flex;
+    gap: 80px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(19, 53, 167);
+    border-style: double;
+    border-color: rgb(27, 25, 25);
+    border-width: 2px;
+    padding: 7px;
+    padding-right: 15px;
+    border-right: hidden;
+    border-bottom: hidden;
+}
+.navbar{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.navbar li a:hover{
+    box-shadow: 5px 2px 20px #09c7a7;
+    border-color: rgba(26, 184, 157, 0.815);
+    transition-duration: 1.3s;
+}
+.navbar li #a1::before{
+    content: "";
+    background-color: rgb(0, 255, 221);
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    transition: 0.4s;
+    border-radius: 2px;
+    border-radius: 10rem;
+}
+.navbar li #a1:hover::before{
+    width: 80px;
+    transition-duration: 0.5s;
+}
+.navbar li #a1::after{
+    content: "";
+    background-color: rgb(255, 0, 170);
+    width: 2px;
+    height: 0px;
+    margin-top: -7px;
+    margin-left: 15px;
+    position: absolute;
+    top: 50px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a1:hover::after{
+    height: 45px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.navbar li #a2::before{
+    content: "";
+    background-color: rgb(0, 255, 221);
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a2:hover::before{
+    width: 110px;
+    transition-duration: 0.5s;
+}
+.navbar li #a2::after{
+    content: "";
+    background-color: rgb(255, 0, 170);
+    width: 2px;
+    height: 0px;
+    margin-top: -7px;
+    margin-left: 15px;
+    position: absolute;
+    top: 50px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a2:hover::after{
+    height: 45px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.navbar li #a3::before{
+    content: "";
+    background-color: rgb(0, 255, 221);
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a3:hover::before{
+    width: 135px;
+    transition-duration: 0.5s;
+}
+.navbar li #a3::after{
+    content: "";
+    background-color: rgb(255, 0, 170);
+    width: 2px;
+    height: 0px;
+    margin-top: -7px;
+    margin-left: 15px;
+    position: absolute;
+    top: 50px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a3:hover::after{
+    height: 45px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.menu{
+    width: 20px;
+    height: 20px;
+    /*background-color: red;*/
+    position: absolute;
+    right: 10px;
+    top: 300px;
+}
+.menu img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-top: 0px;
+
+}
+.logins{
+    width: 100%;
+    height: 500px;
+    /*background-color: rgba(141, 12, 12, 0.562);*/
+    display: inline-flex;
+    gap: 280px;
+}
+.logins .info{
+    width: 450px;
+    height: 400px;
+    /*background-color: rgba(0, 0, 0);*/
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 90px;
+    border-radius: 100px;
+}
+.logins .info h4{
+    height: 80px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(13, 255, 215);
+    margin-left: 25px;
+}
+.logins .info h4:hover{
+    cursor: pointer;
+}
+.logins .info h4::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    margin-top: 45px;
+    margin-left: 70px;
+    background-color: palevioletred;
+}
+.logins .info h4:hover:before{
+    width: 250px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.logins .form{
+    width: 350px;
+    height: 450px;
+    background-color: rgba(14, 93, 182, 0.404);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+/*.logins .form::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(76, 241, 0);
+    width: 3px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 5rem;
+}
+.logins .form:hover::before{
+    margin-top: 380px;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    height: 100px;
+}*/
+#acceptance{
+    position: relative;
+    top: 120px;
+    left: 40px;
+    width: 300px;
+    height: 60px;
+    /*background-color: rgba(0, 128, 0, 0.486);*/
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(7, 7, 7);
+}
+.info h3{
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 25px;
+    color: rgb(236, 4, 217);
+    margin-top: -40px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+/*.logins .info #line{
+    height: 2px;
+    width: 430px;
+    background-color: rgb(0, 131, 55);
+    margin-top: 80px;
+    margin-left: 10px;
+}*/
+.logins .form .email{
+    margin-top: 100px;
+    margin-left: 65px;
+    height: 30px;
+    width: 200px;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    background-color: transparent;
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+.logins .form .pass{
+    margin-top: 60px;
+    margin-left: 65px;
+    height: 30px;
+    width: 200px;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    background-color: transparent;
+}
+.logins .form .submit{
+    background-color: rgba(4, 236, 197, 0.671);
+    position: relative;
+    top: 100px;
+    left: -145px;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    font-weight: 600;
+}
+.logins .form .submit:hover{
+    transition-duration: 0.2s;
+    cursor: pointer;
+    background-color: rgba(4, 236, 197, 0.89);
+    transform: scale(1.04);
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(39, 37, 37);
+    display: inline-flex;
+    gap: 60px;
+    
+}
+#outlets{
+    margin-left: 150px;
+}
+#outlets,#contacts,#socials,#privacy{
+    width: 220px;
+    height: 200px;
+    /*background-color: rgba(216, 112, 147, 0.507);*/
+}
+#outlets h3,#contacts h3,#socials h3,#privacy h3{
+    height: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(248, 192, 192);
+}
+#socials li{
+    position: relative;
+    flex-wrap: wrap;
+    display: inline-flex;
+    gap: 20px;
+}
+#outlets li,#contacts li,#socials  li,#privacy li{
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: -55px;
+    color: rgba(243, 243, 243, 0.856);
+}
+#outlets li a,#contacts li a,#socials  li a,#privacy li a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+}
+#socials li i{
+    font-size: 24px;
+}
+@media only screen and (max-width:375px){
+    .logo img{
+        width: 100px;
+        height: 90px;
+        border-radius: 20px;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .menu{
+        width: 20px;
+        height: 20px;
+        /*background-color: red;*/
+        position: absolute;
+        right: 15px;
+        top: 40px;
+    }
+    .navbar li{
+        display: inline-block;
+        gap: 40px;
+        padding-top: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        border-style: none;
+        /*border-color: rgb(27, 25, 25);*/
+        /*border-width: 2px;*/
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .navbar{
+        left: -250px;
+        top: 10px;
+        position: absolute;
+        z-index: 3;
+        background-color: rgba(255, 235, 205, 0.863);
+        width: 200px;
+        height: 75px;
+        display: none;
+        transition: 0.8s;
+    }
+    .navbar li #a1::before{
+        display: none;
+    }
+    .navbar li #a1::after{
+        display: none;
+    }
+    .navbar li #a2::before{
+        display: none;
+    }
+    .navbar li #a2::after{
+        display: none;
+    }
+    .navbar li #a3::before{
+        display: none;
+    }
+    .navbar li #a3::after{
+        display: none;
+    }
+    .logins{
+        display: inline-block;
+    }
+    .logins .info{
+        width: fit-content;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .logins .info h4{
+        height: 40px;
+        font-size: 27px;
+        margin-left: 5px;
+        margin-top: -70px;
+    }
+    .logins .info h4::before{
+        margin-top: 40px;
+    }
+    .logins .info h4:hover:before{
+        width: 200px;
+    }
+    .info h3{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 110px;
+    }
+    .logins .form{
+        transform: scale(0.85);
+        position: relative;
+        top: -210px;
+        left: 5px;
+    }
+    .footer{
+        height: 650px;
+        display: inline-flexbox;
+        gap: 60px;
+    }
+    #outlets{
+        margin-left: 20px;
+    }
+    #outlets h3,#contacts h3,#socials h3,#privacy h3{
+        font-size: 20px;
+    }
+    #outlets li,#contacts li,#socials  li,#privacy li{
+        font-size: 15px;
+        margin-top: -20px;
+        list-style: none;
+    }
+    #socials{
+        position: relative;
+        top: 380px;
+        left: -400px;
+    }
+    #privacy{
+        position: relative;
+        top: 380px;
+        left: -350px;
+    }
+}
+@media only screen and (min-width:375px) and (max-width:428px){
+    .logo img{
+        width: 100px;
+        height: 90px;
+        border-radius: 20px;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .menu{
+        width: 20px;
+        height: 20px;
+        /*background-color: red;*/
+        position: absolute;
+        right: 10px;
+        top: 40px;
+    }
+    .navbar li{
+        display: inline-block;
+        gap: 40px;
+        padding-top: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        border-style: none;
+        /*border-color: rgb(27, 25, 25);*/
+        /*border-width: 2px;*/
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .navbar{
+        left: -250px;
+        top: 10px;
+        position: absolute;
+        z-index: 3;
+        background-color: rgba(255, 235, 205, 0.863);
+        width: 200px;
+        height: 75px;
+        display: none;
+        transition: 0.8s;
+    }
+    .navbar li #a1::before{
+        display: none;
+    }
+    .navbar li #a1::after{
+        display: none;
+    }
+    .navbar li #a2::before{
+        display: none;
+    }
+    .navbar li #a2::after{
+        display: none;
+    }
+    .navbar li #a3::before{
+        display: none;
+    }
+    .navbar li #a3::after{
+        display: none;
+    }
+    .logins{
+        display: inline-block;
+    }
+    .logins .info{
+        width: fit-content;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .logins .info h4{
+        height: 40px;
+        font-size: 27px;
+        margin-left: 30px;
+        margin-top: -70px;
+    }
+    .logins .info h4::before{
+        margin-top: 40px;
+    }
+    .logins .info h4:hover:before{
+        width: 200px;
+    }
+    .info h3{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: 140px;
+    }
+    .logins .form{
+        transform: scale(0.85);
+        position: relative;
+        top: -210px;
+        left: 30px;
+    }
+    .footer{
+        height: 650px;
+        display: inline-flexbox;
+        gap: 85px;
+    }
+    #outlets{
+        margin-left: 20px;
+    }
+    #outlets h3,#contacts h3,#socials h3,#privacy h3{
+        font-size: 20px;
+    }
+    #outlets li,#contacts li,#socials  li,#privacy li{
+        font-size: 15px;
+        margin-top: -20px;
+        list-style: none;
+    }
+    #socials{
+        position: relative;
+        top: 380px;
+        left: -400px;
+    }
+    #privacy{
+        position: relative;
+        top: 380px;
+        left: -350px;
+    }
+}
+@media screen and (min-width: 760px) and (max-width: 887px){
+    .logo img{
+        width: 120px;
+        height: 100px;
+        border-radius: 20px;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .navbar{
+        margin-left: 80px;
+    }
+    .logins{
+        display: inline-flex;
+        margin-top:300px;
+        gap: 20px;
+    }
+    .logins .info{
+        width: fit-content;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .logins .info h4{
+        height: 40px;
+        font-size: 27px;
+        margin-left: 30px;
+        position: relative;
+        top: -210px;
+    }
+    .logins .info h4::before{
+        margin-top: 40px;
+    }
+    .logins .info h4:hover:before{
+        width: 200px;
+    }
+    .info h3{
+        font-size: 20px;
+        margin-top: -210px;
+        margin-left: 140px;
+    }
+    .logins .form{
+        transform: scale(0.94);
+        position: relative;
+        top: -210px;
+        left: 30px;
+    }
+    .footer{
+        height: 650px;
+        display: inline-flexbox;
+        gap: 45px;
+    }
+    #outlets{
+        margin-left: 10px;
+    }
+    #outlets h3,#contacts h3,#socials h3,#privacy h3{
+        font-size: 20px;
+    }
+    #outlets li,#contacts li,#socials  li,#privacy li{
+        font-size: 15px;
+        margin-top: -20px;
+        list-style: none;
+    }
+    /*#socials{
+        position: relative;
+        top: 380px;
+        left: -400px;
+    }
+    #privacy{
+        position: relative;
+        top: 380px;
+        left: -350px;
+    }*/
+}
+
+

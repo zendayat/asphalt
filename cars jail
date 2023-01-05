@@ -1,0 +1,317 @@
+iv id="brief">
+                <h2>Class A</h2>
+                <h1>Specifications</h1>
+                <div id="brief1">
+                    <div id="speed"><b>Top Speed range: </b><span>(280 - 320)Miles/hr</span></div>
+                    <div id="make"><b>Available Makes: </b><span>Ferrari,Bugatti,Lamborghini</span></div>
+                    <div id="engine"><b>Engine: </b><span>4 engines 1000cc</span></div>
+                    <div id="seat"><b>SEATS: </b><span>two(2) seater</span></div>
+                    <div id="DPrice"><b>DAY PRICE: </b><span>$5,000</span></div>
+                    <div id="perk"><b>PERK: </b><span>Comes with WiFi</span></div>
+                    <div id="available"><b>AVAILABILITY: </b><span>Call to confirm</span></div>
+                </div>
+                <div id="gallery">
+                    <div id="img1">
+                        <img src="images/raceCar3.jpg">
+                        <div id="make">
+                            <li>
+                                <ul style="color: black;"><b>MAKE:</b>Ferrari</ul>
+                                <ul style="color: black;"><b>NAME:</b>"Cobra"</ul>
+                            </li>
+                        </div>
+                    </div>
+                    <div id="img1">
+                        <img src="images/sportsCar3.jpg">
+                        <div id="make">
+                            <li>
+                                <ul><b>MAKE:</b>Audi</ul>
+                                <ul><b>NAME:</b>"Scarlet"</ul>
+                            </li>
+                        </div>
+                    </div><div id="img1">
+                        <img src="images/sportsCar13.jpg">
+                        <div id="make">
+                            <li>
+                                <ul style="color: black;"><b>MAKE:</b>Cruiser</ul>
+                                <ul style="color: black;"><b>NAME:</b>"Cruiser"</ul>
+                            </li>
+                        </div>
+                    </div>
+                    <div id="img1">
+                        <img src="images/sportsCar4.jpg">
+                        <div id="make">
+                            <li>
+                                <ul><b>MAKE:</b>Mercedes</ul>
+                                <ul><b>NAME:</b>"Spark"</ul>
+                            </li>
+                        </div>
+                    </div><div id="img1">
+                        <img src="images/sportsCar11.jpg">
+                        <div id="make">
+                            <li>
+                                <ul style="color: black;"><b>MAKE:</b>Chevlorret</ul>
+                                <ul style="color: black;"><b>NAME:</b>"Black"</ul>
+                            </li>
+                        </div>
+                    </div><div id="img1">
+                        <img src="images/sportsCar12.jpg">
+                        <div id="make">
+                            <li>
+                                <ul style="color: black;"><b>MAKE:</b>Lamborghini</ul>
+                                <ul style="color: black;"><b>NAME:</b>"Tiger"</ul>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            div id="briefB">
+                <h2>Class B</h2>
+                <h1>Specifications</h1>
+                <div id="brief1">
+                    <div id="speed"><b>Top Speed range: </b><span>(240 - 270)Miles/hr</span></div>
+                    <div id="make"><b>Available Makes: </b><span>Ferrari,Bugatti,Lamborghini</span></div>
+                    <div id="engine"><b>Engine: </b><span>4 engines 700cc</span></div>
+                    <div id="seat"><b>SEATS: </b><span>two(2) seater</span></div>
+                    <div id="DPrice"><b>DAY PRICE: </b><span>$4,500</span></div>
+                    <div id="perk"><b>PERK: </b><span>Comes with WiFi</span></div>
+                    <div id="available"><b>AVAILABILITY: </b><span>Call to confirm</span></div>
+                </div>
+                <div id="gallery">
+                    <div id="img1">
+                        <img src="images/sportsCar7.jpg">
+                        <div id="make">
+                            <li>
+                                <ul style="color: black;"><b>MAKE:</b>Ferrari</ul>
+                                <ul style="color: black;"><b>NAME:</b>"Cobra"</ul>
+                            </li>
+                        </div>
+                    </div>
+                    <div id="img1">
+                        <img src="images/sportsCar8.jpg">
+                        <div id="make">
+                            <li>
+                                <ul><b>MAKE:</b>Audi</ul>
+                                <ul><b>NAME:</b>"Scarlet"</ul>
+                            </li>
+                        </div>
+                    </div>
+        
+                </div>    
+            </div>
+
+
+
+
+
+
+
+
+            <div id="briefC">
+                <h2>Class C [RACE-MODIFIED]</h2>
+                <h1>Specifications</h1>
+                <div id="brief1">
+                    <div id="speed"><b>Top Speed range: </b><span>(280 - 380)Miles/hr</span></div>
+                    <div id="make"><b>Available Makes: </b><span>Ferrari,Bugatti,Lamborghini</span></div>
+                    <div id="engine"><b>Engine: </b><span>4 engines 1000cc</span></div>
+                    <div id="seat"><b>SEATS: </b><span>two(2) seater</span></div>
+                    <div id="DPrice"><b>DAY PRICE: </b><span>$5,000</span></div>
+                    <div id="perk"><b>PERK: </b><span>Comes with WiFi</span></div>
+                    <div id="available"><b>AVAILABILITY: </b><span>Order three(3) months prior for modding purposes</span></div>
+                    <div ><span>LIGHTNING ON THE TARMAC</span></div>
+                    <div ><span>DRIVE SAFE</span></div>
+                    <div ><span>DONT BLINK. DONT DIE. FLY</span></div>
+                </div>
+                <div id="gallery">
+                    <div class="main">q</div>
+                    <div class="links">q</div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            #sports #brief{
+                width: 100%;
+                height: 350px;
+               /* background-color: rgba(218, 165, 32, 0.466);*/
+                margin-top: 45px;
+            }
+            #sports #brief h2{
+                font-family: 'Aref Ruqaa Ink', serif;
+                font-weight: 800;
+                font-size: 25px;
+                color: palevioletred;
+                text-decoration: double underline 2px rgb(0, 255, 200);
+            }
+            #sports #brief h1{
+                color: whitesmoke;
+            }
+            #sports #brief #brief1{
+                width: 700px;
+                height: 250px;
+                background-color: rgba(43, 205, 226, 0.493);
+                padding: 20px;
+                margin: 0 auto;
+            }
+            #sports #brief #brief1:hover{
+                cursor: not-allowed;
+                transform: scale(1.1);
+                transition-duration: 0.7s;
+                transition-timing-function: ease-out;
+            }
+            #sports #brief #brief1 span{
+                font-family: 'Aref Ruqaa Ink', serif;
+                font-weight: 800;
+                font-size: 20px;
+                color: wheat;
+            }
+            #sports #gallery{
+                flex-wrap: wrap;
+                display: inline-flex;
+                width: fit-content;
+                height: 1700px;
+                margin-top: 60px;
+                /*background-color: red;*/
+                margin-left: 170px;
+            
+            }
+            #sports #gallery #img1{
+                /*background-color: red;*/
+                width: fit-content;
+                height: 500px;
+            }
+            #sports #gallery img{
+                width: 500px;
+                height: 500px;
+                border: solid 3px white;
+            }
+            #sports #gallery #make{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 17px;
+                color: rgb(255, 255, 255);
+                position: relative;
+                top: -500px;
+                font-weight: 600;
+                list-style: none;
+                margin-left: 5px;
+            }
+            #sports #briefB{
+                width: 100%;
+                height: 350px;
+               /* background-color: rgba(218, 165, 32, 0.466);*/
+                margin-top: 1745px;
+            }
+            #sports #briefB h2{
+                font-family: 'Aref Ruqaa Ink', serif;
+                font-weight: 800;
+                font-size: 25px;
+                color: palevioletred;
+                text-decoration: double underline 2px rgb(0, 255, 200);
+            }
+            #sports #briefB h1{
+                color: whitesmoke;
+            }
+            #sports #briefB #brief1{
+                width: 700px;
+                height: 250px;
+                background-color: rgba(43, 205, 226, 0.493);
+                padding: 20px;
+                margin: 0 auto;
+            }
+            #sports #briefB #brief1:hover{
+                cursor: not-allowed;
+                transform: scale(1.1);
+                transition-duration: 0.7s;
+                transition-timing-function: ease-out;
+            }
+            #sports #briefB #brief1 span{
+                font-family: 'Aref Ruqaa Ink', serif;
+                font-weight: 800;
+                font-size: 20px;
+                color: wheat;
+            }
+            #sports #briefC{
+                width: 100%;
+                height: 350px;
+               /* background-color: rgba(218, 165, 32, 0.466);*/
+                margin-top: 700px;
+            }
+            #sports #briefC h2{
+                font-family: 'Aref Ruqaa Ink', serif;
+                font-weight: 800;
+                font-size: 25px;
+                color: palevioletred;
+                text-decoration: double underline 2px rgb(0, 255, 200);
+            }
+            #sports #briefC h1{
+                color: whitesmoke;
+            }
+            #sports #briefC #brief1{
+                width: 700px;
+                height: 300px;
+                background-color: rgba(43, 205, 226, 0.493);
+                padding: 20px;
+                margin: 0 auto;
+            }
+            #sports #briefC #brief1:hover{
+                cursor: not-allowed;
+                transform: scale(1.1);
+                transition-duration: 0.7s;
+                transition-timing-function: ease-out;
+            }
+             #brief1 span{
+                font-family: 'Aref Ruqaa Ink', serif;
+                font-weight: 800;
+                font-size: 20px;
+                color: wheat;
+            }
+            #sports #briefC #gallery{
+                display: inline-flex;
+                gap: 80px;
+            }
+            #sports #briefC #gallery .main{
+                width: 800px;
+                height: 500px;
+                background-color: rgba(47, 255, 175, 0.705);
+            }
+            #sports #briefC #gallery .links{
+                width: 400px;
+                height: 300px;
+                background-color: rgba(255, 0, 170, 0.541);
+            }

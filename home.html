@@ -1,0 +1,182 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>HomePage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="script1.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="nav">
+                <div class="logo">
+                    <a href="home.html"><img src="images/logo.png"></a>
+                </div>
+                <div class="navbar" id="menuList">
+                    <li>
+                        <ul><a href="home.html" id="a1">Home</a></ul>
+                        <ul><a href="#about" id="a2">About us</a></ul><ul>
+                        <ul><a href="Cars.html" id="a3">Asphalt Cars</a></ul>
+                    </li>
+                </div>
+                <div class="login">
+                    <a href="Login.html">
+                        <img src="images/login.png">
+                    </a>
+                    <span><a href="Login.html" style="text-decoration: none;color:white;">LOG-IN</a></span>
+                </div>
+               <div class="menu">
+                    <img src="images/icons8-circled-menu-50.png" onclick="ToggleMenu()">
+                    <script>
+                        var menuList = document.getElementById("menuList");
+                        function ToggleMenu() {
+                            if(menuList.style.display = "none"){
+                                menuList.style.display = "block";
+                                menuList.style.height = "75px"
+                            }
+                            else{
+                                menuList.style.display = "none";
+                                menuList.style.height = "0px"
+                            }
+                        
+                        }
+                    </script>
+                </div>
+            </div>
+            <div class="head">
+                <h1>WELCOME TO ASPHALT CARS</h1>
+                <h4>Find your perfect match at our dealership - where top-notch cars meet exceptional customer service.</h4>
+            </div>
+        </div>
+        <div class="footer">
+            <h1 id="about">ABOUT US</h1>
+            <h3>What do we do:</h3>
+            <div id="us">
+                We are dedicated to providing high-quality vehicles and exceptional customer service. Our team of knowledgeable sales staff is here to help you find the perfect car to fit your needs and budget. We have a wide selection of new and pre-owned vehicles from top automakers, all thoroughly inspected and backed by our commitment to quality. Plus, with flexible financing options and professional maintenance services available, we make it easy for you to drive off the lot with confidence. 
+            </div>
+            <h3 id="h32">Our dedication is to Customer satisfaction:</h3>
+            <div class="reviews">
+                <div id="review1">
+                    <img src="images/face1.jpg">
+                    <span>Lanina Ariel</span>
+                    <div id="rating">
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                    </div>
+                    <div id="comment">
+                        I was in a pinch and needed to rent a car for a last-minute business trip.I found this car rental online and was pleasantly surprised by how easy and hassle-free the process was.Definitely recommending it.
+                    </div>
+                </div>
+                <div id="review2">
+                    <img src="images/face2.jpg">
+                    <span>Star Ferudi</span>
+                    <div id="rating">
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        
+                    </div>
+                    <div id="comment">
+                        I recently rented a car from this company for a road trip and was extremely satisfied with the service.The car was clean and well-maintained, and the price was very reasonable.
+                    </div>
+                </div>
+                <div id="review3">
+                    <img src="images/face3.jpg">
+                    <span>Kendrink Khan</span>
+                    <div id="rating">
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                        <i class="fa fa-star" aria-hidden="true" style="color: rgb(255, 224, 50);"></i>
+                    </div>
+                    <div id="comment">
+                        This company is my personal favourite. It always gives me the best service and the cars are always in top condition.I recommend this company for anyone in need of a rental car.
+                    </div>
+                </div>
+            </div>
+            <h3 id="h33">Our Partners:</h3>
+            <div class="partners">
+                <div id="partner1">
+                    <img src="images/partner2.png">
+                    <span><br/> AutoSpares</span>
+                </div>
+                <div id="partner2">
+                    <img src="images/partner1.jpeg">
+                    <span>Candlelight inc.</span>
+                </div>
+                <div id="partner3">
+                    <img src="images/partner3.png">
+                    <span>Glamourous LTD</span>
+                </div>
+                <div id="partner4">
+                    <img src="images/partner4.jpeg">
+                    <span>Hijaby Enterprenuers</span>
+                </div>
+                <div id="partner5">
+                    <img src="images/partner7.jpeg">
+                    <span>Amern AutoSpares</span>
+                </div>
+                <div id="partner6">
+                    <img src="images/partner8.jpeg">
+                    <span>Omerix LTD.</span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="info">
+            <div id="outlets">
+                <h3>Our outlets</h3>
+                <div id="list1">
+                    <li>
+                        <ul>Montero Building, Mombasa</ul>
+                        <ul>Azzania Building, Malindi</ul>
+                        <ul>TCB Business Hall, Nairobi</ul>
+                        <ul>Omera Limited, Kisumu</ul>
+                    </li>
+                </div>
+            </div>
+            <div id="contacts">
+                <h3>Contact us</h3>
+                <div id="list1">
+                    <li>
+                        <ul><b>Tell:</b>+2547789300</ul>
+                        <ul><b>Tell:</b>+2547733460</ul>
+                        <ul><b>Email:</b><a href="mailto:craizeeido@gmail.com">asphaltUser@gmail.com</a></ul>
+                        <ul><b>Email:</b><a href="mailto:craizeeido@gmail.com">asphaltCare@gmail.com</a></ul>
+                    </li>
+                </div>
+            </div>
+            <div id="socials">
+                <h3>Follow us</h3>
+                <div id="list1">
+                    <li>
+                        <ul><a href="#"><i class="fa fa-instagram"></i></a></ul>
+                        <ul><a href="#"><i class="fa fa-facebook"></i></a></ul>
+                        <ul><a href="#"><i class="fa fa-twitter"></i></a></ul>
+                        <ul><a href="#"><i class="fa fa-telegram"></i></a></ul>
+                    </li>
+                </div>
+            </div>
+            <div id="privacy">
+                <h3>Privacy</h3>
+                <div id="list1">
+                    <li>
+                        <ul>&copy;Copyright 2022</ul>
+                        <ul>AsphaltCars&trade; is a registered trademark, 2011.</ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

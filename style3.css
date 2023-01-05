@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    height: fit-content;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(111, 112, 112);
+    font-family: sans-serif;
+}
+.logo img{
+    width: 120px;
+    height: 90px;
+    border-radius: 20px;
+}
+.logo img:hover{
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.logo{
+    width: 120px;
+    height: 90px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.nav{
+    display: inline-flex;
+}
+.navbar li{
+    display: inline-flex;
+    gap: 80px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(19, 53, 167);
+    border-style: double;
+    border-color: rgba(27, 25, 25, 0.384);
+    border-width: 2px;
+    padding: 7px;
+    padding-right: 15px;
+    border-right: hidden;
+    border-bottom: hidden;
+}
+.navbar{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.navbar li a:hover{
+    box-shadow: 5px 2px 20px #09c7a7;
+    border-color: rgba(26, 184, 157, 0.815);
+    transition-duration: 1.3s;
+}
+.navbar li #a1::before{
+    content: "";
+    background-color: rgb(0, 255, 221);
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    transition: 0.4s;
+    border-radius: 2px;
+    border-radius: 10rem;
+}
+.navbar li #a1:hover::before{
+    width: 80px;
+    transition-duration: 0.5s;
+}
+.navbar li #a1::after{
+    content: "";
+    background-color: rgb(255, 0, 170);
+    width: 2px;
+    height: 0px;
+    margin-top: -7px;
+    margin-left: 15px;
+    position: absolute;
+    top: 50px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a1:hover::after{
+    height: 45px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.navbar li #a2::before{
+    content: "";
+    background-color: rgb(0, 255, 221);
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a2:hover::before{
+    width: 110px;
+    transition-duration: 0.5s;
+}
+.navbar li #a2::after{
+    content: "";
+    background-color: rgb(255, 0, 170);
+    width: 2px;
+    height: 0px;
+    margin-top: -7px;
+    margin-left: 15px;
+    position: absolute;
+    top: 50px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a2:hover::after{
+    height: 45px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.navbar li #a3::before{
+    content: "";
+    background-color: rgb(0, 255, 221);
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -10px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a3:hover::before{
+    width: 135px;
+    transition-duration: 0.5s;
+}
+.navbar li #a3::after{
+    content: "";
+    background-color: rgb(255, 0, 170);
+    width: 2px;
+    height: 0px;
+    margin-top: -7px;
+    margin-left: 15px;
+    position: absolute;
+    top: 50px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+.navbar li #a3:hover::after{
+    height: 45px;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+.menu{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    display: none;
+}
+.menu img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-top: 0px;
+
+}
+.login{
+    display: inline-block;
+    margin-left: 300px;
+}
+.login span{
+    color: white;
+    margin-top: 25px;
+    left: 5px;
+    font-weight: 600;
+    display: none;
+}
+.login img{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+.login img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+.head{
+    /*background-color: rgba(255, 0, 0, 0.144);*/
+    display: inline-block;
+}
+.head #main{
+    width: 1200px;
+    height: 100px;
+    margin-left: 70px;
+    /*background-color: rgba(153, 205, 50, 0.377);*/
+}
+.head #main h4{
+    margin-top: 5px;
+    height: 80px;
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 0px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(2, 2, 2);
+}
+.head #main h4:hover{
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.head #main h4::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(236, 21, 21);
+    height: 4px;
+    width: 0px;
+    margin-left: 150px;
+    margin-top: 85px;
+    border-radius: 5rem;
+}
+.head #main h4:hover::before{
+    width: 800px;
+    transition-duration: 0.6s;
+}
+.head #main h3{
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 800px;
+    margin-top: 10px;
+    color: rgb(8, 8, 8);
+}
+/*.head #main #sub{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 300px;
+    margin-top: 60px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(2, 2, 2);
+}*/
+.gallery{
+    display: inline-block;
+}
+.gallery #luxury{
+    display: inline-flex;
+    gap: 80px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.gallery img{
+    width: 500px;
+    height: 550px;
+    margin-top: 40px;
+    border-radius: 100px;
+}
+.gallery h3{
+    margin-top: 80px;
+    font-family: 'Unbounded', cursive;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: double underline rgb(4, 45, 105);
+}
+.gallery #ref1{
+    width: 650px;
+    height: 410px;
+    /*background-color: rgba(172, 255, 47, 0.527);*/
+    margin-top: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+}
+.gallery #ref1 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(157, 255, 0, 0.767);
+}
+#luxurys{
+    width: 100%;
+    height: 1350px;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.534), rgba(10, 10, 10, 0.658)), url(images/wall1.jpg);
+    display: inline-block;
+}
+#luxurys h4{
+    position: relative;
+    top: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    left: 320px;
+    color: rgb(14, 197, 91);
+}
+#luxurys h4::before{
+    content: "";
+    background-color: rgb(255, 0, 170);
+    width: 0px;
+    height: 3px;
+    margin-left: 15px;
+    position: absolute;
+    top: 55px;
+    transition: 0.4s;
+    border-radius: 10rem;
+}
+#luxurys h4:hover::before{
+    width: 560px;
+    transition-duration: 0.6s;
+}
+#box{
+    width: 1100px;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 40px;
+    /*background-color: rgba(245, 245, 245, 0.219);*/
+    display: inline-flex;
+}
+#luxury1{
+    width: 1100px;
+    height: 600px;
+    /*background-color: rgba(29, 197, 14, 0.473);*/
+    margin-top: 50px;
+    margin-left: 100px;
+    display: inline-flex;
+    gap: 100px;
+
+}
+#luxury1 #pics{
+    display: inline-flex;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+#luxury1 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+#luxury1 #info{
+    position: relative;
+    width: 250px;
+    height: 600px;
+    top: 60px;
+    /*background-color: rgba(111, 112, 112, 0.5);*/
+}
+#luxury1 #info{
+    width: 300px;
+    height: 500px;
+    /*background-color: rgba(58, 226, 43, 0.486);*/
+    font-family: 600;
+    margin-top: 70px;
+    margin-top: 20px;
+    color: rgb(7, 172, 223);
+}
+#luxury1 #info span{
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: wheat;
+}
+@media only screen and (min-width:330px) and (max-width:429px){
+    .logo img{
+        width: 100px;
+        height: 90px;
+        border-radius: 20px;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .menu{
+        width: 20px;
+        height: 20px;
+        /*background-color: red;*/
+        position: absolute;
+        right: 15px;
+        top: 70px;
+    }
+    .navbar li{
+        display: inline-block;
+        gap: 40px;
+        padding-top: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        border-style: none;
+        /*border-color: rgb(27, 25, 25);*/
+        /*border-width: 2px;*/
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .navbar{
+        left: -250px;
+        top: 10px;
+        position: absolute;
+        z-index: 3;
+        background-color: rgba(255, 235, 205, 0.863);
+        width: 200px;
+        height: 75px;
+        display: none;
+        transition: 0.8s;
+    }
+    .navbar li #a1::before{
+        display: none;
+    }
+    .navbar li #a1::after{
+        display: none;
+    }
+    .navbar li #a2::before{
+        display: none;
+    }
+    .navbar li #a2::after{
+        display: none;
+    }
+    .navbar li #a3::before{
+        display: none;
+    }
+    .navbar li #a3::after{
+        display: none;
+    }
+    .login{
+        display: block;
+        right: 5px;
+        position: absolute;
+    }
+    .login span{
+        display: none;
+    }
+    .login img{
+        height: 40px;
+        width: 40px;
+        margin-top: 35px;
+    }
+    .head #main{
+        width: 350px;
+        height: fit-content;
+        margin-left: 15px;
+        /*background-color: rgba(153, 205, 50, 0.377);*/
+    }
+    .head #main h4{
+        margin-top: 15px;
+        height: fit-content;
+        font-size: 23px;
+    }
+    .head #main h4::before{
+        display: none;
+    }
+    .head #main h3{
+        font-size: 18px;
+        margin-left: 80px;
+    }
+    .gallery{
+        display: inline-block;
+    }
+    .gallery #luxury{
+        display: inline-block;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    .gallery img{
+        width: 300px;
+        height: 300px;
+        margin-left: 25px;
+        border-radius: 70px;
+    }
+    .gallery h3{
+        margin-top: 40px;
+        font-family: 'Unbounded', cursive;
+        font-weight: 800;
+        font-size: 20px;
+        text-decoration: double underline rgb(4, 45, 105);
+    }
+    .gallery #ref1{
+        width: 340px;
+        /*background-color: rgba(172, 255, 47, 0.527);*/
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 760px) and (max-width: 887px){
+    .logo img{
+        width: 100px;
+        height: 90px;
+        border-radius: 20px;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .navbar li{
+        display: inline-flex;
+        gap: 40px;
+        padding-top: 10px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        border-style: none;
+        /*border-color: rgb(27, 25, 25);*/
+        /*border-width: 2px;*/
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .navbar{
+        left: -150px;
+        top: 10px;
+        position: absolute;
+        z-index: 3;
+        /*background-color: rgba(255, 235, 205, 0.863);*/
+        width: 100%;
+        height: 75px;
+        display: block;
+        transition: 0.8s;
+    }
+    .login{
+        display: block;
+        margin-left: 560px;
+        margin-top: 25px;
+    }
+    .login span{
+        display: none;
+    }
+    .login img{
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+    }
+    .head #main{
+        width: 100%;
+        height: fit-content;
+        margin-left: 90px;
+        /*background-color: rgba(153, 205, 50, 0.377);*/
+    }
+    .head #main h4{
+        margin-top: 15px;
+        height: fit-content;
+        font-size: 30px;
+    }
+    .head #main h4::before{
+        display: block;
+        margin-top: 40px;
+    }
+    .head #main h4:hover::before{
+        width: 400px;
+    }
+    .head #main h3{
+        font-size: 22px;
+        margin-left: 230px;
+        margin-top: 10px;
+    }
+    .gallery{
+        display: inline-block;
+    }
+    .gallery #luxury{
+        display: inline-block;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    .gallery img{
+        width: 300px;
+        height: 300px;
+        margin-left: 25px;
+        border-radius: 70px;
+    }
+    .gallery h3{
+        margin-top: 40px;
+        font-family: 'Unbounded', cursive;
+        font-weight: 800;
+        font-size: 20px;
+        text-decoration: double underline rgb(4, 45, 105);
+    }
+    .gallery #ref1{
+        width: 340px;
+        height: fit-content;
+        /*background-color: rgba(172, 255, 47, 0.527);*/
+        margin-top: 20px;
+    }
+    .navbar li #a1::after{
+        margin-top: -50px;
+    }
+    .navbar li #a1::before{
+        margin-top: 30px;
+    }
+    .navbar li #a2::after{
+        margin-top: -50px;
+    }
+    .navbar li #a2::before{
+        margin-top: 30px;
+    }
+    .navbar li #a3::after{
+        margin-top: -50px;
+    }
+    .navbar li #a3::before{
+        margin-top: 30px;
+    }
+}
