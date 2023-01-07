@@ -435,6 +435,9 @@ body{
         margin-top: 15px;
         padding: 15px;
     }
+    .navbar li a:hover{
+        box-shadow: none;
+    }
     .navbar{
         left: -250px;
         top: 10px;
@@ -634,6 +637,9 @@ body{
         height: 75px;
         display: none;
         transition: 0.8s;
+    }
+    .navbar li a:hover{
+        box-shadow: none;
     }
     .navbar li #a1::before{
         display: none;

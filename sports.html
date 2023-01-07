@@ -18,7 +18,7 @@
                 <div class="logo">
                     <a href="home.html"><img src="images/logo.png"></a>
                 </div>
-                <div class="navbar">
+                <div class="navbar" id="menuList">
                     <li>
                         <ul><a href="home.html" id="a1">Home</a></ul>
                         <ul><a href="home.html#about" id="a2">About us</a></ul><ul>
@@ -27,6 +27,20 @@
                 </div>
                 <div class="menu">
                     <img src="images/icons8-circled-menu-50.png">
+                    <script>
+                        var menuList = document.getElementById("menuList");
+                        function ToggleMenu() {
+                            if(menuList.style.display = "none"){
+                                menuList.style.display = "block";
+                                menuList.style.height = "75px";
+                            }
+                            else{
+                                menuList.style.display = "none";
+                                menuList.style.height = "0px";
+                            }
+                        
+                        }
+                    </script>
                 </div>
             </div>
             <div id="head"><h4>ASPHALT SPORTS GALLERY</h4></div>
